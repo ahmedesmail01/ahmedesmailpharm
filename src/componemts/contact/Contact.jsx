@@ -23,7 +23,7 @@ const Contact = () => {
 							<i class="uil uil-whatsapp app_icon"></i>
 							<p>+20 01025698192</p>
 							<a
-								href="https://api.whatsapp.com/send?phone=2001158620646&text=Hi DR/Ahmed Esmail, how do you do?"
+								href="https://api.whatsapp.com/send?phone=2001025698192&text=Hi DR/Ahmed Esmail, how do you do?"
 								target="_blank"
 								rel="noopener noreferrer"
 							>
