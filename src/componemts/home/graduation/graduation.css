@@ -1,0 +1,65 @@
+.grad {
+	width: 100vw;
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	transition: 0.3s;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.grad::before {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(
+		180.2deg,
+		rgba(120, 85, 137, 0.33) -6.9%,
+		rgba(35, 9, 31, 0.81) 76.7%
+	);
+	transition: 0.3s;
+}
+
+.text_holder {
+	position: absolute;
+	padding: 150px;
+	width: 100%;
+	height: 100%;
+	z-index: 4;
+}
+.text_holder h1 {
+	font-size: 4rem;
+	font-weight: 900;
+	padding-bottom: 20px;
+	color: #eca4a4;
+}
+.text_holder p {
+	color: #eca4a4;
+	font-size: 2rem;
+	font-weight: 900;
+}
+.text_holder .data {
+	position: absolute;
+	bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+	.grad {
+		height: 50vh;
+	}
+	.text_holder {
+		padding: 20px;
+	}
+	.text_holder h1 {
+		font-size: 2rem;
+		padding-bottom: 4px;
+	}
+	.text_holder p {
+		font-size: 1.2rem;
+	}
+	.text_holder .data {
+		bottom: 60px;
+	}
+}
