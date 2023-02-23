@@ -79,7 +79,7 @@
 } */
 
 .fadic_image {
-	background-image: url("./media/fadic.png");
+	background-image: url("../../../assets/fadic.png");
 	width: 40%;
 	background-size: contain;
 	background-repeat: no-repeat;
